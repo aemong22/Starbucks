@@ -1,0 +1,40 @@
+#search {
+  background-color: #ffffff;
+  display: inline-block;
+  height : 30px;
+  width:30px;
+  border : solid 1px #d2d2d2;
+  border-radius: 5px;
+  text-align: center;
+  margin : 0 15px;
+}
+
+.top-menu {
+  display:flex;
+  justify-content: flex-end;
+  margin: 0 50px;
+}
+
+.top-menu nav ul  li{
+  list-style-type: none;
+  display: inline;
+  color : #505050;
+  font-size:13px;
+
+}
+
+.line::after {
+  content:"|";
+  font-size: 1px;
+  color:#d2d2d2;
+  margin : 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color : #505050;
+}
+
+a:hover{
+  text-decoration: underline;
+}
