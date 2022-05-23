@@ -108,8 +108,89 @@ main {
 }
 
 .starbucks-rewards {
-  display : flex;
   background-color : #1E3932;
-  height : 200px;
   width : 100%;
+  padding : 20px 0;
+}
+
+.rewards {
+  display : flex;
+  max-width : 1100px;
+  margin : 0 auto;
+}
+
+.rewards-logo {
+  padding : 0 30px;
+  
+}
+.rewards-img {
+  width : 190px;
+}
+
+.rewards-content {
+  width : 100%;
+}
+
+.rewards-join {
+  border-bottom : solid 1px #4B615B;
+  padding-bottom : 5px;
+}
+
+.rewards-font-bold {
+  font-weight: bold;
+  font-size : 16px;
+  color : white;
+}
+
+.rewards-font {
+  font-size : 16px;
+  color : white;
+}
+
+.rewards-join-btn {
+  background-color: #00704a;
+  padding : 10px 17px;
+  font-size: 15px;
+  margin : 0 10px 10px 0;
+  border-radius: 5px;
+  border: solid 2px #00704a;
+  color : white;
+}
+
+.rewards-login-btn {
+  background-color : transparent;
+  padding : 10px 17px;
+  font-size: 15px;
+  border-radius: 5px;
+  color : white;
+  border: solid 2px #ffffff;
+
+}
+
+.rewards-login-btn:hover ,
+.rewards-join-btn:hover,
+.giftcard-btn:hover {
+  text-decoration: underline;
+}
+
+.rewards-giftcard {
+  display : flex;
+  padding : 15px 0 ;
+  justify-content: space-between;
+}
+
+.rewards-giftcard-text {
+  color : white;
+  font-size: 12px;
+}
+
+.giftcard-btn {
+  border : solid 2px #ffffff;
+  font-size : 16px;
+  padding : 10px 22px;
+  border-radius: 5px;
+  background-color: transparent;
+  color : white;
+
+
 }
