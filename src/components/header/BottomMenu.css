@@ -1,5 +1,5 @@
 
-.main {
+.main-menu {
   display: inline;
   padding: 5px 20px 40px 20px;
   color : #505050;
@@ -17,12 +17,12 @@ a {
   color : #505050;
 }
 
-.main:hover a {
+.main-menu:hover a {
   text-decoration: underline;
   color:#40A940;
 }
 
-.main:hover {
+.main-menu:hover {
   background-color: #323232;
 }
 
@@ -34,7 +34,7 @@ a {
   display:none;
 }
 
-.main:hover .menu2{
+.main-menu:hover .menu2{
   display:block;
   background-color: #323232;
 }

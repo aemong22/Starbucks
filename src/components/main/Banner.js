@@ -2,7 +2,7 @@ import "./Banner.css";
 
 function Banner() {
     return (
-        <main role="main">
+        <main role="main" className="main">
             <div className="main-banner">
                 <div className="main-inner">
                     <div className="slogan">

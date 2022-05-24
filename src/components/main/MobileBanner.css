@@ -2,90 +2,89 @@
   padding : 0 ;
   margin : 0
 }
-.main {
+.m-main {
   width: 100%;
-  height : 640px;
-  padding-top: 120px;
+  padding-top:50px;
 }
-.main-banner {
+
+.m-main-banner {
   width : 100%;
-  height : 640px;
-  background-image: url('https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_Summer1_main_bg.jpg');
+  height : 260vw;
+  background-image: url('https://image.istarbucks.co.kr/upload/common/img/main/2022/m_2022_Summer1_main_bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  overflow-x: hidden;
-  
-  
+  overflow: hidden;
 }
 
-.slogan{
-  width : 300px;
-  padding: 50px 20px;
-  
+.m-slogan{
+  padding: 60px 0;
+  width : 80%;
+  height : auto;
+  margin : 0 auto;
 }
 
-.main-inner{
-  max-width: 1100px;
+.m-main-inner{
+  width: 99%;
   margin: 0 auto;
-  display: flex;
   position : relative;
-
 }
 
-.main-slogan {
-  width : 280px;
-  height : 170px;
+.m-main-slogan {
+  width : 110%;
+  height : 30vw;
   background-image: url('https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_Summer1_main_slogun.png');
   background-repeat:no-repeat;
-  background-size: 280px 170px;
+  background-size: contain;
   
 }
 
-.btn-slogan{
-  position: relative;
-  margin : 30px 70px;
+.m-btn-slogan{
+  display:block;
+  margin : 15px auto;
   border: solid 2px #d73a7a;
   border-radius: 5px;
-  padding : 7px 24px;
-  font-size: 15px;
+  padding : 2% 3%;
+  font-size: 12px;
+  font-weight: bold;
   color : #d73a7a;
   background-color: transparent;
   z-index: 10;
-  
 }
 
-.btn-slogan:hover {
+.m-btn-slogan:hover {
   color: #ffffff;
   background: #d73a7a;
   text-decoration: underline;
 }
 
+.m-new{
+  width : 100%;
+  height : 185vw;
+}
 
-
-.new-one {
-  height : 450px;
-  padding: 0;
-  position: absolute;
-  right : -90px;
-  top: 100px;
+.m-new-one {
+  width : 80%;
   z-index: 1;
-}
-.new-two {
-  height : 400px;
-  padding: 0;
   position: absolute;
-  right : 170px;
-  top: 80px;
-  z-index: 1
+  right : 10%;
 }
-.new-three {
-  height : 300px;
+.m-new-two {
+  width : 95%;
   padding: 0;
+  z-index: 1;
   position: absolute;
-  right : 440px;
-  top: 200px;
-  z-index: 1
+  top : 40%;
+  left : 5%;
+
+}
+.m-new-three {
+  width : 80%;
+  padding: 0;
+  z-index: 1;
+  top : 65%;
+  left : 10%;
+  position: absolute;
 }
 
 .banner-line {
@@ -107,90 +106,86 @@
   font-size : 17px;
 }
 
-.starbucks-rewards {
+.m-starbucks-rewards {
   background-color : #1E3932;
   width : 100%;
   padding : 20px 0;
 }
 
-.rewards {
-  display : flex;
-  max-width : 1100px;
+.m-rewards {
+  width : 90%;
   margin : 0 auto;
+  text-align: center;
 }
 
-.rewards-logo {
-  margin-right: 30px;
+.m-rewards-logo {
+  margin : 15px;
 }
-.rewards-img {
+.m-rewards-img {
   width : 190px;
 }
 
-.rewards-content {
+.m-rewards-content {
   width : 100%;
+  border: solid 2px orange;
 }
 
-.rewards-join {
+.m-rewards-join {
   border-bottom : solid 1px #4B615B;
-  padding-bottom : 5px;
+  padding: 10px 0;
+
 }
 
-.rewards-font-bold {
+.m-rewards-font-bold {
   font-weight: bold;
-  font-size : 16px;
+  font-size : 14px;
   color : white;
+  padding : 2px;
 }
 
-.rewards-font {
-  font-size : 16px;
+.m-rewards-font {
+  font-size : 12px;
   color : white;
+  padding: 2px;
 }
 
-.rewards-join-btn {
+.m-rewards-join-btn {
   background-color: #00704a;
-  padding : 10px 17px;
-  font-size: 15px;
-  margin : 0 10px 10px 0;
-  border-radius: 5px;
+  padding : 5px 50px;
+  font-size: 14px;
+  margin : 10px;
+  border-radius: 2px;
   border: solid 2px #00704a;
   color : white;
 }
 
-.rewards-login-btn {
+.m-rewards-login-btn {
   background-color : transparent;
-  padding : 10px 17px;
-  font-size: 15px;
-  border-radius: 5px;
+  padding : 5px 60px;
+  font-size: 14px;
+  border-radius: 2px;
   color : white;
   border: solid 2px #ffffff;
-  
 
 }
 
-.rewards-login-btn:hover ,
-.rewards-join-btn:hover,
-.giftcard-btn:hover {
+.m-rewards-login-btn:hover ,
+.m-rewards-join-btn:hover,
+.m-giftcard-btn:hover {
   text-decoration: underline;
 }
 
-.rewards-giftcard {
-  display : flex;
-  padding : 15px 0 ;
-  justify-content: space-between;
-}
 
-.rewards-giftcard-text {
+.m-rewards-giftcard-text {
   color : white;
   font-size: 12px;
 }
 
-.giftcard-btn {
+.m-giftcard-btn {
   border : solid 2px #ffffff;
   font-size : 16px;
   padding : 10px 22px;
   border-radius: 5px;
   background-color: transparent;
   color : white;
-
-
 }

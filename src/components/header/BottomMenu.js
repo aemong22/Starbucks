@@ -5,7 +5,7 @@ function BottomMenu() {
     return (
         <div className="bottom-menu">
             <ul>
-                <li className="main">
+                <li className="main-menu">
                     <Link to="/">COFFEE</Link>
                     <div className="menu2">
                         <div className="sub">
@@ -59,19 +59,19 @@ function BottomMenu() {
                         </div>
                     </div>
                 </li>
-                <li className="main">
+                <li className="main-menu">
                     <Link to="/">MENU</Link>
                 </li>
-                <li className="main">
+                <li className="main-menu">
                     <Link to="/">STORE</Link>
                 </li>
-                <li className="main">
+                <li className="main-menu">
                     <Link to="/">RESPONSIBILITY</Link>
                 </li>
-                <li className="main">
+                <li className="main-menu">
                     <Link to="/">STARBUCKS REWARDS</Link>
                 </li>
-                <li className="main">
+                <li className="main-menu">
                     <Link to="/">WHAT'S NEW </Link>
                 </li>
             </ul>
