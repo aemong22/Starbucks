@@ -106,48 +106,55 @@
   font-size : 17px;
 }
 
-.starbucks-rewards {
+.s-starbucks-rewards {
   background-color : #1E3932;
   width : 100%;
-  padding : 20px 0;
+  padding : 50px 0;
 }
 
-.rewards {
+.s-rewards {
   display : flex;
   max-width : 1100px;
   margin : 0 auto;
+
 }
 
-.rewards-logo {
+.s-rewards-logo {
   margin-right: 30px;
+  margin-top:40px;
 }
-.rewards-img {
-  width : 190px;
-}
-
-.rewards-content {
-  width : 100%;
+.s-rewards-img {
+  width : 250px;
 }
 
-.rewards-join {
+.s-rewards-content {
+  width : 80%;
+}
+
+.s-rewards-join {
+  width : 80%;
   border-bottom : solid 1px #4B615B;
   padding-bottom : 5px;
 }
 
-.rewards-font-bold {
+.s-rewards-font-bold {
   font-weight: bold;
   font-size : 16px;
   color : white;
 }
 
-.rewards-font {
+.s-rewards-font {
   font-size : 16px;
   color : white;
 }
 
-.rewards-join-btn {
+.s-rewards-button{
+  margin: 15px 0;
+}
+
+.s-rewards-join-btn {
   background-color: #00704a;
-  padding : 10px 17px;
+  padding : 6px 17px;
   font-size: 15px;
   margin : 0 10px 10px 0;
   border-radius: 5px;
@@ -155,9 +162,9 @@
   color : white;
 }
 
-.rewards-login-btn {
+.s-rewards-login-btn {
   background-color : transparent;
-  padding : 10px 17px;
+  padding : 6px 17px;
   font-size: 15px;
   border-radius: 5px;
   color : white;
@@ -172,18 +179,19 @@
   text-decoration: underline;
 }
 
-.rewards-giftcard {
-  display : flex;
+.s-rewards-giftcard {
+
   padding : 15px 0 ;
-  justify-content: space-between;
+
 }
 
-.rewards-giftcard-text {
+.s-rewards-giftcard-text {
   color : white;
-  font-size: 12px;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
-.giftcard-btn {
+.s-giftcard-btn {
   border : solid 2px #ffffff;
   font-size : 16px;
   padding : 10px 22px;

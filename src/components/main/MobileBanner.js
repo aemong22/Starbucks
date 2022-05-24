@@ -97,11 +97,17 @@ function MobileBanner() {
                             </div>
                             <div className="m-rewards-giftcard">
                                 <div className="m-rewards-giftcard-text">
-                                    회원 가입 후, 스타벅스 e-Gift Card를 "나에게
-                                    선물하기"로 구매하시고, 편리하게 등록하세요!
-                                    <br />
-                                    카드를 등록하여 스타벅스 리워드 회원이 되신
-                                    후, 첫 구매를 하시면 무료 음료쿠폰을
+                                    회원 가입 후, 스타벅스 e-Gift Card를
+                                </div>
+                                <div className="m-rewards-giftcard-text-bold">
+                                    "나에게 선물하기"로 구매하시고,
+                                    <br /> 편리하게 등록하세요!
+                                </div>
+
+                                <div className="m-rewards-giftcard-text">
+                                    카드를 등록하여 스타벅스 리워드 회원이
+                                    되신후,
+                                    <br /> 첫 구매를 하시면 무료 음료쿠폰을
                                     드립니다!
                                 </div>
                                 <div>

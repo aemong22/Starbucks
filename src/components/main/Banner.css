@@ -61,8 +61,6 @@
   text-decoration: underline;
 }
 
-
-
 .new-one {
   height : 450px;
   padding: 0;
@@ -120,7 +118,7 @@
 }
 
 .rewards-logo {
-  margin-right: 30px;
+  margin: 0 40px;
 }
 .rewards-img {
   width : 190px;

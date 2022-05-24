@@ -127,7 +127,6 @@
 
 .m-rewards-content {
   width : 100%;
-  border: solid 2px orange;
 }
 
 .m-rewards-join {
@@ -178,14 +177,24 @@
 
 .m-rewards-giftcard-text {
   color : white;
-  font-size: 12px;
+  font-size: 14px;
 }
-
+.m-rewards-giftcard{
+  padding:20px 0;
+}
 .m-giftcard-btn {
   border : solid 2px #ffffff;
-  font-size : 16px;
-  padding : 10px 22px;
-  border-radius: 5px;
+  font-size : 15px;
+  padding : 5px 86px;
+  border-radius: 2px;
   background-color: transparent;
   color : white;
+  margin:20px;
+}
+
+.m-rewards-giftcard-text-bold {
+  font-weight : bold;
+  color : white;
+  padding : 3px;
+  font-size:14px;
 }
